@@ -59,7 +59,7 @@ export class BrandsService {
   }
 
   
-  fillBrandsWithSeedData(brands = []){
+  fillBrandsWithSeedData(brands: Brand[] = []){
     this.brands = brands
   }
 }
